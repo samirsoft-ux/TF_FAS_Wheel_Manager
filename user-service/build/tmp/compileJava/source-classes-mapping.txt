@@ -1,0 +1,86 @@
+pe/edu/upc/user/services/UserService.java
+ pe.edu.upc.user.services.UserService
+pe/edu/upc/user/repositories/SubscriptionRepository.java
+ pe.edu.upc.user.repositories.SubscriptionRepository
+pe/edu/upc/user/model/RentalActivity.java
+ pe.edu.upc.user.model.RentalActivity
+ pe.edu.upc.user.model.RentalActivity$RentalActivityBuilder
+pe/edu/upc/user/model/Comment.java
+ pe.edu.upc.user.model.Comment
+ pe.edu.upc.user.model.Comment$CommentBuilder
+pe/edu/upc/user/client/VentaClient.java
+ pe.edu.upc.user.client.VentaClient
+pe/edu/upc/user/services/impls/AddressServiceImpl.java
+ pe.edu.upc.user.services.impls.AddressServiceImpl
+pe/edu/upc/user/entities/CreditCard.java
+ pe.edu.upc.user.entities.CreditCard
+pe/edu/upc/user/model/Vehicle.java
+ pe.edu.upc.user.model.Vehicle
+ pe.edu.upc.user.model.Vehicle$VehicleBuilder
+pe/edu/upc/user/UserServiceApplication.java
+ pe.edu.upc.user.UserServiceApplication
+pe/edu/upc/user/entities/Address.java
+ pe.edu.upc.user.entities.Address
+pe/edu/upc/user/repositories/AddressRepository.java
+ pe.edu.upc.user.repositories.AddressRepository
+pe/edu/upc/user/controllers/UserController.java
+ pe.edu.upc.user.controllers.UserController
+pe/edu/upc/user/services/SubscriptionService.java
+ pe.edu.upc.user.services.SubscriptionService
+pe/edu/upc/user/client/ProductoHystrixFallbackFactory.java
+ pe.edu.upc.user.client.ProductoHystrixFallbackFactory
+pe/edu/upc/user/services/CreditCardService.java
+ pe.edu.upc.user.services.CreditCardService
+pe/edu/upc/user/entities/Subscription.java
+ pe.edu.upc.user.entities.Subscription
+pe/edu/upc/user/services/impls/UserAddressServiceImpl.java
+ pe.edu.upc.user.services.impls.UserAddressServiceImpl
+pe/edu/upc/user/model/Offer.java
+ pe.edu.upc.user.model.Offer
+ pe.edu.upc.user.model.Offer$OfferBuilder
+pe/edu/upc/user/entities/User.java
+ pe.edu.upc.user.entities.User
+pe/edu/upc/user/model/Brand.java
+ pe.edu.upc.user.model.Brand
+ pe.edu.upc.user.model.Brand$BrandBuilder
+pe/edu/upc/user/services/CrudService.java
+ pe.edu.upc.user.services.CrudService
+pe/edu/upc/user/client/VentaHystrixFallbackFactory.java
+ pe.edu.upc.user.client.VentaHystrixFallbackFactory
+pe/edu/upc/user/repositories/UserRepository.java
+ pe.edu.upc.user.repositories.UserRepository
+pe/edu/upc/user/entities/UserAddress.java
+ pe.edu.upc.user.entities.UserAddress
+pe/edu/upc/user/controllers/UserAddressController.java
+ pe.edu.upc.user.controllers.UserAddressController
+pe/edu/upc/user/controllers/SubscriptionController.java
+ pe.edu.upc.user.controllers.SubscriptionController
+pe/edu/upc/user/controllers/AddressController.java
+ pe.edu.upc.user.controllers.AddressController
+pe/edu/upc/user/repositories/CreditCardRepository.java
+ pe.edu.upc.user.repositories.CreditCardRepository
+pe/edu/upc/user/model/Reservation.java
+ pe.edu.upc.user.model.Reservation
+ pe.edu.upc.user.model.Reservation$ReservationBuilder
+pe/edu/upc/user/services/impls/UserServiceImpl.java
+ pe.edu.upc.user.services.impls.UserServiceImpl
+pe/edu/upc/user/client/ProductoClient.java
+ pe.edu.upc.user.client.ProductoClient
+pe/edu/upc/user/services/impls/SubscriptionServiceImpl.java
+ pe.edu.upc.user.services.impls.SubscriptionServiceImpl
+pe/edu/upc/user/services/impls/CreditCardServiceImpl.java
+ pe.edu.upc.user.services.impls.CreditCardServiceImpl
+pe/edu/upc/user/repositories/UserAddressRepository.java
+ pe.edu.upc.user.repositories.UserAddressRepository
+pe/edu/upc/user/services/UserAddressService.java
+ pe.edu.upc.user.services.UserAddressService
+pe/edu/upc/user/model/VehicleType.java
+ pe.edu.upc.user.model.VehicleType
+ pe.edu.upc.user.model.VehicleType$VehicleTypeBuilder
+pe/edu/upc/user/controllers/CreditCardController.java
+ pe.edu.upc.user.controllers.CreditCardController
+pe/edu/upc/user/model/Situation.java
+ pe.edu.upc.user.model.Situation
+ pe.edu.upc.user.model.Situation$SituationBuilder
+pe/edu/upc/user/services/AddressService.java
+ pe.edu.upc.user.services.AddressService
