@@ -1,0 +1,86 @@
+pe/edu/upc/producto/services/CommentService.java
+ pe.edu.upc.producto.services.CommentService
+pe/edu/upc/producto/model/Reservation.java
+ pe.edu.upc.producto.model.Reservation
+ pe.edu.upc.producto.model.Reservation$ReservationBuilder
+pe/edu/upc/producto/services/impls/BrandServiceImpl.java
+ pe.edu.upc.producto.services.impls.BrandServiceImpl
+pe/edu/upc/producto/controllers/VehicleController.java
+ pe.edu.upc.producto.controllers.VehicleController
+pe/edu/upc/producto/entities/Vehicle.java
+ pe.edu.upc.producto.entities.Vehicle
+pe/edu/upc/producto/services/impls/VehicleTypeServiceImpl.java
+ pe.edu.upc.producto.services.impls.VehicleTypeServiceImpl
+pe/edu/upc/producto/repositories/VehicleTypeRepository.java
+ pe.edu.upc.producto.repositories.VehicleTypeRepository
+pe/edu/upc/producto/repositories/BrandRepository.java
+ pe.edu.upc.producto.repositories.BrandRepository
+pe/edu/upc/producto/services/impls/SituationServiceImpl.java
+ pe.edu.upc.producto.services.impls.SituationServiceImpl
+pe/edu/upc/producto/services/BrandService.java
+ pe.edu.upc.producto.services.BrandService
+pe/edu/upc/producto/client/VentaClient.java
+ pe.edu.upc.producto.client.VentaClient
+pe/edu/upc/producto/repositories/VehicleRepository.java
+ pe.edu.upc.producto.repositories.VehicleRepository
+pe/edu/upc/producto/model/UserAddress.java
+ pe.edu.upc.producto.model.UserAddress
+ pe.edu.upc.producto.model.UserAddress$UserAddressBuilder
+pe/edu/upc/producto/entities/Situation.java
+ pe.edu.upc.producto.entities.Situation
+pe/edu/upc/producto/client/VentaHystrixFallbackFactory.java
+ pe.edu.upc.producto.client.VentaHystrixFallbackFactory
+pe/edu/upc/producto/model/CreditCard.java
+ pe.edu.upc.producto.model.CreditCard
+ pe.edu.upc.producto.model.CreditCard$CreditCardBuilder
+pe/edu/upc/producto/model/User.java
+ pe.edu.upc.producto.model.User
+ pe.edu.upc.producto.model.User$UserBuilder
+pe/edu/upc/producto/model/Address.java
+ pe.edu.upc.producto.model.Address
+ pe.edu.upc.producto.model.Address$AddressBuilder
+pe/edu/upc/producto/model/Offer.java
+ pe.edu.upc.producto.model.Offer
+ pe.edu.upc.producto.model.Offer$OfferBuilder
+pe/edu/upc/producto/entities/VehicleType.java
+ pe.edu.upc.producto.entities.VehicleType
+pe/edu/upc/producto/controllers/BrandController.java
+ pe.edu.upc.producto.controllers.BrandController
+pe/edu/upc/producto/services/SituationService.java
+ pe.edu.upc.producto.services.SituationService
+pe/edu/upc/producto/repositories/SituationRepository.java
+ pe.edu.upc.producto.repositories.SituationRepository
+pe/edu/upc/producto/services/CrudService.java
+ pe.edu.upc.producto.services.CrudService
+pe/edu/upc/producto/services/VehicleTypeService.java
+ pe.edu.upc.producto.services.VehicleTypeService
+pe/edu/upc/producto/model/Subscription.java
+ pe.edu.upc.producto.model.Subscription
+ pe.edu.upc.producto.model.Subscription$SubscriptionBuilder
+pe/edu/upc/producto/services/impls/CommentServiceImpl.java
+ pe.edu.upc.producto.services.impls.CommentServiceImpl
+pe/edu/upc/producto/ProductoServiceApplication.java
+ pe.edu.upc.producto.ProductoServiceApplication
+pe/edu/upc/producto/entities/Brand.java
+ pe.edu.upc.producto.entities.Brand
+pe/edu/upc/producto/client/UserHystrixFallbackFactory.java
+ pe.edu.upc.producto.client.UserHystrixFallbackFactory
+pe/edu/upc/producto/controllers/CommentController.java
+ pe.edu.upc.producto.controllers.CommentController
+pe/edu/upc/producto/client/UserClient.java
+ pe.edu.upc.producto.client.UserClient
+pe/edu/upc/producto/entities/Comment.java
+ pe.edu.upc.producto.entities.Comment
+pe/edu/upc/producto/model/RentalActivity.java
+ pe.edu.upc.producto.model.RentalActivity
+ pe.edu.upc.producto.model.RentalActivity$RentalActivityBuilder
+pe/edu/upc/producto/repositories/CommentRepository.java
+ pe.edu.upc.producto.repositories.CommentRepository
+pe/edu/upc/producto/controllers/VehicleTypeController.java
+ pe.edu.upc.producto.controllers.VehicleTypeController
+pe/edu/upc/producto/services/VehicleService.java
+ pe.edu.upc.producto.services.VehicleService
+pe/edu/upc/producto/services/impls/VehicleServiceImpl.java
+ pe.edu.upc.producto.services.impls.VehicleServiceImpl
+pe/edu/upc/producto/controllers/SituationController.java
+ pe.edu.upc.producto.controllers.SituationController
