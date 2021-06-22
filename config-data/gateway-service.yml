@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8099/eureka/
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: producto-service
+          uri: lb://producto-service
+          predicates:
+            - Path=/brands/**
+            - Path=/comments/**
+            - Path=/situations/**
+            - Path=/vehicles/**
+            - Path=/vehicle_types/**
+        - id: user-service
+          uri: lb://user-service
+          predicates:
+            - Path=/addresses/**
+            - Path=/credit_cards/**
+            - Path=/subscriptions/**
+            - Path=/user_addresses/**
+            - Path=/users/**
+        - id: venta-service
+          uri: lb://venta-service
+          predicates:
+            - Path=/offers/**
+            - Path=/rental_activities/**
+            - Path=/reservations/**
