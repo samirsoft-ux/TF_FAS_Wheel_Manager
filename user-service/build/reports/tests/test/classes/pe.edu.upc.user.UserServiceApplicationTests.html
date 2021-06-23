@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.246s</div>
+<div class="counter">0.857s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">contextLoads()</td>
-<td class="success">0.246s</td>
+<td class="success">0.857s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,19 +87,19 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>22:34:06.960 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-22:34:06.978 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-22:34:07.011 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pe.edu.upc.user.UserServiceApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-22:34:07.027 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pe.edu.upc.user.UserServiceApplicationTests], using SpringBootContextLoader
-22:34:07.031 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pe.edu.upc.user.UserServiceApplicationTests]: class path resource [pe/edu/upc/user/UserServiceApplicationTests-context.xml] does not exist
-22:34:07.032 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pe.edu.upc.user.UserServiceApplicationTests]: class path resource [pe/edu/upc/user/UserServiceApplicationTestsContext.groovy] does not exist
-22:34:07.032 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pe.edu.upc.user.UserServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-22:34:07.079 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pe.edu.upc.user.UserServiceApplicationTests]
-22:34:07.264 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [pe.edu.upc.user.UserServiceApplicationTests]: using defaults.
-22:34:07.264 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-22:34:07.282 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@48e1ce19, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c89bebe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34ce3911, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2d22ec3e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b757e85, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a48511b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f8bf3f2, org.springframework.test.context.event.EventPublishingTestExecutionListener@55f2a121, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15337c4c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d1b3778, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d3f5f4a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d041465, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@35bd895, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27df9f71]
-22:34:07.286 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@79949fd1 testClass = UserServiceApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@69f29806 testClass = UserServiceApplicationTests, locations = '{}', classes = '{class pe.edu.upc.user.UserServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3423e94, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3d695279, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7025b665, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2c4d5ecd, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@755f4dcf], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
-22:34:07.323 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+<pre>07:25:55.727 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+07:25:55.750 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+07:25:55.808 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [pe.edu.upc.user.UserServiceApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+07:25:55.829 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [pe.edu.upc.user.UserServiceApplicationTests], using SpringBootContextLoader
+07:25:55.833 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pe.edu.upc.user.UserServiceApplicationTests]: class path resource [pe/edu/upc/user/UserServiceApplicationTests-context.xml] does not exist
+07:25:55.834 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [pe.edu.upc.user.UserServiceApplicationTests]: class path resource [pe/edu/upc/user/UserServiceApplicationTestsContext.groovy] does not exist
+07:25:55.834 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [pe.edu.upc.user.UserServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+07:25:55.892 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [pe.edu.upc.user.UserServiceApplicationTests]
+07:25:56.082 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [pe.edu.upc.user.UserServiceApplicationTests]: using defaults.
+07:25:56.083 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+07:25:56.107 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@48e1ce19, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c89bebe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34ce3911, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2d22ec3e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6b757e85, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2a48511b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6f8bf3f2, org.springframework.test.context.event.EventPublishingTestExecutionListener@55f2a121, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@15337c4c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7d1b3778, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4d3f5f4a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d041465, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@35bd895, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27df9f71]
+07:25:56.112 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@79949fd1 testClass = UserServiceApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@69f29806 testClass = UserServiceApplicationTests, locations = '{}', classes = '{class pe.edu.upc.user.UserServiceApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3423e94, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3d695279, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7025b665, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@2c4d5ecd, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@755f4dcf], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+07:25:56.164 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -109,48 +109,48 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::       (v2.3.12.RELEASE)
 
-2021-06-22 22:34:08.696  INFO 14656 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8081
-2021-06-22 22:34:10.860  INFO 14656 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8081. Will be trying the next url if available
-2021-06-22 22:34:10.861  WARN 14656 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for &quot;http://localhost:8081/user-service/default&quot;: Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
-2021-06-22 22:34:10.869  INFO 14656 --- [    Test worker] p.e.u.user.UserServiceApplicationTests   : No active profile set, falling back to default profiles: default
-2021-06-22 22:34:12.049  INFO 14656 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-06-22 22:34:12.279  INFO 14656 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 221ms. Found 5 JPA repository interfaces.
-2021-06-22 22:34:12.452  WARN 14656 --- [    Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
-2021-06-22 22:34:12.475  WARN 14656 --- [    Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
-2021-06-22 22:34:12.624  INFO 14656 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5951b560-5707-35e5-8c48-e30973a248d9
-2021-06-22 22:34:13.183  INFO 14656 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-06-22 22:34:13.386  INFO 14656 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-06-22 22:34:13.470  INFO 14656 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-06-22 22:34:13.543  INFO 14656 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-06-22 22:34:13.725  INFO 14656 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-06-22 22:34:13.901  INFO 14656 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2021-06-22 22:34:14.776  INFO 14656 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-06-22 22:34:14.785  INFO 14656 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-06-22 22:34:15.814  WARN 14656 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2021-06-22 22:34:15.814  INFO 14656 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-06-22 22:34:15.822  WARN 14656 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2021-06-22 22:34:15.822  INFO 14656 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-06-22 22:34:16.074  WARN 14656 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-06-22 22:34:16.543  INFO 14656 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-06-22 22:34:18.950  INFO 14656 --- [    Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
-2021-06-22 22:34:19.752  INFO 14656 --- [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
-2021-06-22 22:34:19.839  WARN 14656 --- [    Test worker] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
-2021-06-22 22:34:19.993  INFO 14656 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
-2021-06-22 22:34:20.075  INFO 14656 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2021-06-22 22:34:20.231  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2021-06-22 22:34:20.320  INFO 14656 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2021-06-22 22:34:20.320  INFO 14656 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2021-06-22 22:34:20.568  INFO 14656 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2021-06-22 22:34:20.568  INFO 14656 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2021-06-22 22:34:20.799  INFO 14656 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2021-06-22 22:34:20.850  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2021-06-22 22:34:20.850  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2021-06-22 22:34:20.850  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2021-06-22 22:34:20.851  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2021-06-22 22:34:20.851  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2021-06-22 22:34:20.851  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2021-06-22 22:34:20.851  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2021-06-22 22:34:25.023  INFO 14656 --- [    Test worker] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
+2021-06-23 07:25:57.989  INFO 15864 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8081
+2021-06-23 07:26:00.159  INFO 15864 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Connect Timeout Exception on Url - http://localhost:8081. Will be trying the next url if available
+2021-06-23 07:26:00.159  WARN 15864 --- [    Test worker] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: I/O error on GET request for &quot;http://localhost:8081/user-service/default&quot;: Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2021-06-23 07:26:00.167  INFO 15864 --- [    Test worker] p.e.u.user.UserServiceApplicationTests   : No active profile set, falling back to default profiles: default
+2021-06-23 07:26:01.954  INFO 15864 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-23 07:26:02.442  INFO 15864 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 468ms. Found 5 JPA repository interfaces.
+2021-06-23 07:26:02.928  WARN 15864 --- [    Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-06-23 07:26:03.035  WARN 15864 --- [    Test worker] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2021-06-23 07:26:03.337  INFO 15864 --- [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5951b560-5707-35e5-8c48-e30973a248d9
+2021-06-23 07:26:04.753  INFO 15864 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-23 07:26:05.142  INFO 15864 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-23 07:26:05.326  INFO 15864 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-23 07:26:05.504  INFO 15864 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-06-23 07:26:05.936  INFO 15864 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-23 07:26:06.284  INFO 15864 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-23 07:26:08.260  INFO 15864 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-23 07:26:08.280  INFO 15864 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-23 07:26:12.723  WARN 15864 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-06-23 07:26:12.731  INFO 15864 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-23 07:26:12.773  WARN 15864 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2021-06-23 07:26:12.773  INFO 15864 --- [    Test worker] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-23 07:26:13.991  WARN 15864 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-23 07:26:16.043  INFO 15864 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-23 07:26:22.169  INFO 15864 --- [    Test worker] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2021-06-23 07:26:23.690  INFO 15864 --- [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2021-06-23 07:26:23.933  WARN 15864 --- [    Test worker] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2021-06-23 07:26:24.209  INFO 15864 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-23 07:26:24.418  INFO 15864 --- [    Test worker] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-06-23 07:26:24.637  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-06-23 07:26:24.768  INFO 15864 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2021-06-23 07:26:24.768  INFO 15864 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2021-06-23 07:26:25.404  INFO 15864 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2021-06-23 07:26:25.404  INFO 15864 --- [    Test worker] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2021-06-23 07:26:25.763  INFO 15864 --- [    Test worker] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-06-23 07:26:25.823  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-06-23 07:26:25.823  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-06-23 07:26:25.823  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-06-23 07:26:25.823  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-06-23 07:26:25.823  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-06-23 07:26:25.823  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-06-23 07:26:25.823  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-06-23 07:26:29.996  INFO 15864 --- [    Test worker] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=java.net.ConnectException: Connection refused: no further information stacktrace=com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: no further information
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
 	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
@@ -335,8 +335,8 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 164 more
 
-2021-06-22 22:34:25.026  WARN 14656 --- [    Test worker] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
-2021-06-22 22:34:25.027  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/host.docker.internal:user-service - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+2021-06-23 07:26:30.001  WARN 15864 --- [    Test worker] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused: no further information
+2021-06-23 07:26:30.004  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/host.docker.internal:user-service - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
@@ -486,17 +486,17 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 
-2021-06-22 22:34:25.030  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
-2021-06-22 22:34:25.030  WARN 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
-2021-06-22 22:34:25.031  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
-2021-06-22 22:34:25.033  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2021-06-22 22:34:25.039  INFO 14656 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2021-06-22 22:34:25.045  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1624419265043 with initial instances count: 0
-2021-06-22 22:34:25.053  INFO 14656 --- [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
-2021-06-22 22:34:25.055  INFO 14656 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1624419265055, current=UP, previous=STARTING]
-2021-06-22 22:34:25.057  INFO 14656 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/host.docker.internal:user-service: registering service...
-2021-06-22 22:34:25.080  INFO 14656 --- [    Test worker] p.e.u.user.UserServiceApplicationTests   : Started UserServiceApplicationTests in 17.742 seconds (JVM running for 19.144)
-2021-06-22 22:34:25.098 ERROR 14656 --- [gistrationTask1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+2021-06-23 07:26:30.008  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from primary servers failed
+2021-06-23 07:26:30.008  WARN 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2021-06-23 07:26:30.010  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Initial registry fetch from backup servers failed
+2021-06-23 07:26:30.014  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-06-23 07:26:30.027  INFO 15864 --- [    Test worker] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-23 07:26:30.036  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1624451190032 with initial instances count: 0
+2021-06-23 07:26:30.057  INFO 15864 --- [    Test worker] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-SERVICE with eureka with status UP
+2021-06-23 07:26:30.061  INFO 15864 --- [    Test worker] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1624451190061, current=UP, previous=STARTING]
+2021-06-23 07:26:30.066  INFO 15864 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-SERVICE/host.docker.internal:user-service: registering service...
+2021-06-23 07:26:30.105  INFO 15864 --- [    Test worker] p.e.u.user.UserServiceApplicationTests   : Started UserServiceApplicationTests in 33.92 seconds (JVM running for 36.057)
+2021-06-23 07:26:30.146 ERROR 15864 --- [gistrationTask1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
 
 java.lang.IllegalStateException: couldn't determine local port. Please set spring.boot.admin.client.instance.service-base-url.
 	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getLocalServerPort(DefaultApplicationFactory.java:192) ~[spring-boot-admin-client-2.3.1.jar:2.3.1]
@@ -525,7 +525,7 @@ java.lang.IllegalStateException: couldn't determine local port. Please set sprin
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.9</a> at 22 jun. 2021 22:34:32</p>
+<a href="http://www.gradle.org">Gradle 6.9</a> at 23 jun. 2021 07:26:38</p>
 </div>
 </div>
 </body>
